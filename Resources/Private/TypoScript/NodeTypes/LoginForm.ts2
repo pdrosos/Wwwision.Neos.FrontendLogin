@@ -1,0 +1,8 @@
+##
+# "LoginForm" element, extending "Plugin"
+#
+prototype(Wwwision.Neos.FrontendLogin:LoginForm) < prototype(TYPO3.Neos:Plugin) {
+	package = 'Wwwision.Neos.FrontendLogin'
+	controller = 'Login'
+	action = 'index'
+}
